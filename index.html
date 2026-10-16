@@ -1,0 +1,151 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jhon Michael | My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="hero" id="home">
+        <nav class="navbar">
+            <a href="#home" class="logo">JM<span>.</span></a>
+
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+
+        <div class="hero-layout">
+
+    <div class="profile-picture">
+        <img src="https://scontent.fdvo2-1.fna.fbcdn.net/v/t39.30808-1/846570483_1126548119899970_3718990978785629115_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1080&ctp=s200x200&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=e99d92&_nc_eui2=AeHxKH3HBB60lD5ZuuFxk3Ifj8TolfwyLyePxOiV_DIvJ0nOnxabr5TiJ95pFuIi4wlITwtul2q9SiXkEUGcbOey&_nc_ohc=wG6jGH9rXV8Q7kNvwGPCH99&_nc_oc=Adr__L0kugPtj4Hb-IyoQMwJrubu3RtaI_DgY2HgUD-deFMtTnTVWr7AoWQj4VzcRQRBuM6I7R7ixcf07Yppr7JX&_nc_zt=24&_nc_ht=scontent.fdvo2-1.fna&_nc_gid=PBb_G9XFGDpqCdqA8DPXWQ&_nc_ss=7b2a8&oh=00_AQNCMdu7WMgkuUffpHE0vU51cvkvPE-FS3jJo7yoSLyRNw&oe=6AD64406" alt="My profile picture">
+    </div>
+
+    <div class="hero-content">
+            <p class="intro">WELCOME TO MY PORTFOLIO</p>
+            <h1>Hi, I'm <span>Jhon Michael C. Lumactod</span></h1>
+            <h2>Student | Future Computing Professional</h2>
+            <p class="hero-description">
+                Learning, creating, and building my future through technology.
+            </p>
+            <a href="#projects" class="main-button">Explore My Work ↘</a>
+        
+
+        <div class="hero-circle"></div>
+    </header>
+
+    <main>
+        <section class="section-card" id="about">
+            <p class="section-label">GET TO KNOW ME</p>
+            <h2>About <span>Me</span></h2>
+            <p>
+                Hello! I'm Jhon Michael C. Lumactod, a student and an aspiring
+                computing professional. I am interested in technology,
+                programming, and website development. I enjoy learning new
+                skills and improving my knowledge through different projects.
+            </p>
+        </section>
+
+        <section class="section-card" id="skills">
+            <p class="section-label">WHAT I AM LEARNING</p>
+            <h2>My <span>Skills</span></h2>
+
+            <div class="skills-grid">
+                <div class="skill">
+                    <div class="skill-heading">
+                        <span>HTML</span><span>Beginner</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-level html"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-heading">
+                        <span>CSS</span><span>Beginner</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-level css"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-heading">
+                        <span>JavaScript</span><span>Beginner</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-level javascript"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-heading">
+                        <span>Problem Solving</span><span>Learning</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-level problem"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-card" id="projects">
+            <p class="section-label">WHAT I HAVE CREATED</p>
+            <h2>My <span>Projects</span></h2>
+
+            <div class="project-grid">
+                <article class="project-card">
+                    <div class="project-icon">01</div>
+                    <p class="project-type">WEB DEVELOPMENT</p>
+                    <h3>Personal Website</h3>
+                    <p>A personal portfolio website created for CCC 110.</p>
+                    <a href="#contact">Get in touch ↗</a>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-icon">02</div>
+                    <p class="project-type">PROGRAMMING</p>
+                    <h3>C++ Activities</h3>
+                    <p>Beginner programming exercises using C++ and logical thinking.</p>
+                    <a href="#contact">Get in touch ↗</a>
+                </article>
+            </div>
+        </section>
+
+        <section class="section-card" id="contact">
+            <p class="section-label">LET'S CONNECT</p>
+            <h2>Contact <span>Me</span></h2>
+            <p class="contact-description">
+                Have a question or want to connect? Send me a message below.
+            </p>
+
+            <form id="contact-form">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" placeholder="Enter your name" required>
+
+                <label for="email">Your Email</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+
+                <label for="message">Your Message</label>
+                <textarea id="message" rows="5" placeholder="Write your message..." required></textarea>
+
+                <button type="submit" class="main-button">Send Message ↗</button>
+                <p id="form-status" role="status"></p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Jhon Michael C. Lumactod</p>
+        <a href="#home">Back to Top ↑</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
